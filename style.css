@@ -128,16 +128,12 @@ nav::before {
 header {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    /* margin-left: 7rem; */
     margin:0 0 9rem 7rem;
-    gap: 5rem;
     gap: 14rem;
-    /* z-index: 1; */
 }
 
 .header__detail {
     margin: 5rem 0 0rem 0;
-    /* z-index: -1; */
 }
 
 .header__highlight {
@@ -188,7 +184,6 @@ header {
 .header__img {
     z-index: 2;
     overflow: hidden;
-    /* height: 100%; */
 }
 
 .header__img > img {
@@ -197,7 +192,6 @@ header {
     width: 65rem;
     object-fit: contain;
     transform: translateX(-2%);
-    /* z-index: 1; */
 }
 
 
@@ -205,9 +199,6 @@ header {
         Media Query(tablet)
 ============================== */
 @media screen and (max-width: 65.6em) {
-    body {
-    /* background: red; */
-    }
 
 /* =================================================
 ----------------- Navbar(Tablet) ------------------
@@ -255,9 +246,6 @@ header {
         Media Query(tablet)
 ============================== */
 @media screen and (max-width: 47.25em) {
-    body {
-    /* background: rgb(241, 0, 197); */
-    }
 
 /* =================================================
 ----------------- Navbar(Mobile) ------------------
@@ -298,7 +286,6 @@ header {
         left: 2.5rem;
         right: 2.5rem;
         display: block;
-        /* width: 90%; */
         font-weight: var(--fw-bold);
         background: white;
         border-radius: .2rem;
@@ -312,11 +299,6 @@ header {
     .nav__menu.active li {
         padding: 1rem 0;
     }
-
-    /* .nav__menu.active li:nth-child(3),
-    .nav__menu.active li:nth-child(5) {
-        padding-bottom: 2rem;
-    } */
 
     .nav__menu.active li:nth-child(4) {
         display: none;
